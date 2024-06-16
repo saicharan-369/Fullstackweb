@@ -1,49 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-th,td{
-	border:1px solid black;
-	border-radius:12px;
-	padding:5px;
-}
-table{
-	border:1px solid black;
-	border-radius:8px;
-	padding:5px;
-}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .shapes{
+            display: grid;
+            margin-left: 500px;
+            grid-template-columns: 1fr 1fr 1fr;
+            height: 200px;
+            width: 300px;
+            margin-top:50px;
+            column-gap: 10px;
+            row-gap: 10px;
 
-	
-table,th,td{
-	background-color: #96D4D4;
-}
-</style>
+        }
+        .shapes div{
+            width: 100px;
+            border-style: solid;
+            border-width: 2px;
+            border-color: rgb(116, 168, 12);
+
+        }
+        table{
+            width: 100%;
+            background: skyblue;
+            border-radius: 10px;
+            margin-top: 120px;
+        }
+        th,td{
+            border-style: solid;
+            border-radius:20px ;
+        }
+        .div1{
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .div2{
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        .div3{
+            border-radius:15px;
+        }
+        .div4{
+            border-radius: 10px;
+        }
+        .div5{
+            border-radius: 5px;
+        }
+        .div6{
+            border-radius: 15px;
+        }
+        .div7{
+            border-radius: 47%;
+        }
+        .div8{
+            border-radius: 4px;
+        }
+        .div9{
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+    </style>
 </head>
 <body>
-<table style="width:100%">
-   <tr>
-	<th>Firstname</th>
-	<th>Lastname</th>
-	<th>Age</th>
-   </tr>
-   
-   <tr>
-	<td>Jill</td>
-	<td>smith</td>
-	<td>50</td>
-   </tr>
+    <div class="table">
+        <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr> <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr> <tr>
+                <td>Jayavanth</td>
+                <td>Athota</td>
+                <td>19</td>
+            </tr>
 
-   <tr>
-	<td>Eve</td>
-	<td>Jackson</td>
-	<td>94</td>
-   </tr>
+        </table>
 
-   <tr>
-	<td>John</td>
-	<td>Doe</td>
-	<td>80</td>
-   </tr>
-</table>
+    </div>
+    <div class="shapes">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+        <div class="div5"></div>
+        <div class="div6"></div>
+        <div class="div7"></div>
+        <div class="div8"></div>
+        <div class="div9"></div>
+        
+    </div>
 </body>
 </html>
